@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="formulario">
+        <h1>Formulário de Feedback</h1>
+
+        <div class="input-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+        </div>
+
+        <div class="input-group">
+            <label for="e-mail">E-mail:</label>
+            <input type="email" id="e-mail">
+        </div>
+
+        <div class="input-group"> 
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua">
+        </div>
+
+        <div class="input-group"> 
+            <label for="numero">Número:</label>
+            <input type="number">
+        </div>
+
+        <div class="input-group"> 
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro">
+        </div>
+
+        <div class="input-group">
+            <label for="bairro">Cidade:</label>
+            <input type="text" id="bairro">
+        </div>
+
+        <div class="input-group"> 
+            <label for="estado">Estado</label>
+            <select name="estados" id="estados">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS" selected>Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="DF">Distrito Federal</option>
+            </select>
+        </div>
+
+        <div class="input-group"> 
+            <label for="cep">CEP:</label>
+            <input type="number">
+        </div>
+
+        <div class="input-group">
+            <label>Tipo de Feedback:</label>
+            <div class="container-radio">
+                <label for="elogio">
+                    <input type="radio" name="Feedback" id="elogio" class="input-radio">Elogio
+                </label>
+
+                <label for="sugestão">
+                    <input type="radio" name="Feedback" id="sugestão" class="input-radio">Sugestão
+                </label>
+
+                <label for="duvida">
+                    <input type="radio" name="Feedback" id="duvida" class="input-radio">Dúvida
+                </label>
+
+                <label for="reclamação">
+                    <input type="radio" name="Feedback" id="reclamação" class="input-radio">Reclamação
+                </label>
+            </div>
+        </div>
+
+        <div class="input-group"> 
+            <label for="feedback">Feedback:</label>
+            <textarea name="" id="feedback" placeholder="Deixe seu feedback"></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    margin: 2rem 1.5rem;
+    padding: 0.5rem  1.5rem;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+main{
+    background-color: rgba(109, 1, 1, 0.89);
+    color: rgb(252, 252, 252);
+    margin: 2rem 1.5rem;
+    padding: 0.5rem  1.5rem;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 239, 9);
+    margin: 2rem 1.5rem;
+    padding: 0.5rem  1.5rem;
+    border: 5px solid rgb(179, 2, 2);
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.destaque{
+    font-style: italic;
+    background-color: rgba(112, 1, 1, 0.89);;
+}
+
+#importante{
+    border-top: 5px solid white;
+}

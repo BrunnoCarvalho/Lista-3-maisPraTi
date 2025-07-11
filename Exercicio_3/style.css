@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 2rem;
+    gap: 5px;
+    background-color: rgb(228, 42, 89);
+    border-radius: 10px;
+    box-shadow: 0  4px 8px rgba(22, 22, 22, 0.5);
+}
+
+input, select, textarea{
+    padding: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+label{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+    color: rgb(0, 0, 0);
+}
+
+.container-radio{
+    display: flex;
+}
+
+.container-radio label {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
+
+button{
+    margin-top: 1.5rem;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
